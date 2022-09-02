@@ -1,0 +1,16 @@
+Algoritmo Ejercicios10
+	Definir frase, cad1, cad2 Como Caracter
+	
+	Escribir " Ingrese una palabra o frase: " 
+	leer frase
+	
+	cad1 = Subcadena(frase,0,0)
+	cad2 = Subcadena(frase, Longitud(frase)-1, Longitud(frase)-1)
+	
+	si cad1 = 'A' o cad1= 'a' y cad1 = cad2 Entonces
+		Escribir " CORRECTO " 
+	sino 
+		Escribir " INCORRECTO "
+	FinSi
+	
+FinAlgoritmo
